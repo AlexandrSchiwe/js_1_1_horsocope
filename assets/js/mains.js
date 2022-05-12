@@ -115,5 +115,8 @@ function showHoroscope() {
         background.classList.add("background");
         document.body.classList.add("bodyBackground");
         break;
+
+        default:
+        headline.innerHTML = "Please give a month";
     }
 }
