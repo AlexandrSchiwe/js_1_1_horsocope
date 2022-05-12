@@ -3,7 +3,7 @@ let horImage = document.getElementById('horImage');
 let headline = document.getElementById('headline');
 let description = document.getElementById('description');
 let background = document.getElementById('container');
-let bodyBackground = getElementById('body');
+
 
 // const janBody = "../img/aquarius_bg.webp";
 
@@ -118,5 +118,6 @@ function showHoroscope() {
 
         default:
         headline.innerHTML = "Please give a month";
+        headline.style.color = "black";
     }
 }
