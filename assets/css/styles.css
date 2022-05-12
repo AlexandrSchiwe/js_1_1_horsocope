@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form > input {
+    display: block;
+}
+
+form input:first-of-type {
+    width: 10vw;
+}
+
+form input:last-of-type {
+    width: 10vw;
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section > div:last-of-type {
+    margin-top: 5vh;
+    width: 30%;
+    padding: 5vh 5vw;
+    box-shadow:  2px 18px 8px rgba(0,0,0,0.73);
+    text-align: center;
+    color: white;
+}
+
+.background {
+    background-image: url("../img/istockphoto-1155035040-170667a.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bodyBackground {
+    background-image: url("../img/17493.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
